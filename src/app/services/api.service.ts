@@ -17,7 +17,7 @@ export class ApiService {
     ;
   }
   postTypeRequest(url, payload) {
-  return this._http.get(`${this.baseUrl}${url}`, payload).pipe(map(res => {
+  return this._http.post(`${this.baseUrl}${url}`, payload).pipe(map(res => {
   return res;
   }));
   }
