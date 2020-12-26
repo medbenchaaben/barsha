@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ApiService {
-  baseUrl = 'http://localhost:4000/';
+  baseUrl = 'https://b-coupon-testing.herokuapp.com/';
 
   constructor(private _http: HttpClient) { }
 
